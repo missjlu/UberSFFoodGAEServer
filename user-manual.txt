@@ -1,0 +1,7 @@
+User Manual:
+
+1. Click on the Google Map as the window pop up
+2. A red marker will be shown and there will be a dialog showing your location latitude and longitude (You can hit somewhere within Chinatown)
+3. Fill in the range of distance you want to find a food truck (You can enter 700)
+4. Then all the food truck will be presented on the map using green marker, you can move mouse on the green marker to view food truck name, food
+item details and food truck address. (Sometimes, there will be an internal error occurs because the fetch from SF Data API is not stable. You might want to try several times)
