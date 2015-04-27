@@ -33,7 +33,7 @@ function searchTruck() {
 	var range = document.getElementById("range").value;
 	req.onreadystatechange = getReadyStateHandler(req, updateMap);
 
-	req.open("POST", "ubersffoodgaeserver", true);
+	req.open("POST", "http://1-dot-ubersffood.appspot.com//ubersffoodgaeserver", true);
 	req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 	req.send("lat=" + lat + "&lng=" + lng + "&range=" + range);
 }
