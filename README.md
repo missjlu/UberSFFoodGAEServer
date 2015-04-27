@@ -54,6 +54,6 @@ be improved so that it could be more user friendly.
 
 ## Front-end
 
-- Provided user with an interface to.
-- Used the Google Maps API 3 to show the map and add the markers for every food truck
+- Provided user with an interface to interact with google map, specify the location and search range and get the food truck info, name, address and food item details.
+- Used the Google Maps API 3 to show the map and add the markers for search location and every food truck
   location.
