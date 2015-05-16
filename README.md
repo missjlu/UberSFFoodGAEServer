@@ -4,6 +4,9 @@ uber-coding-challenge
 This project presents a solution to the SF Food Truck coding challenge. I chose
 full stack.
 
+Topic: Create a service that tells the user what types of food trucks might be found near a specific location on a map.
+The data is available on [DataSF:Food Trucks](https://data.sfgov.org/Economy-and-Community/Mobile-Food-Facility-Permit/rqzj-sfat?)
+
 
 - The project is hosted on [Google App Engine](http://1-dot-ubersffood.appspot.com/)
 - The source code is located on
@@ -18,28 +21,15 @@ full stack.
 - Database Integration: SF Data API
 - Frontend Framework: No framework. Only javascript and css (minimum experience)
 
-## Reasoning:
-
-**Language**: Java is the language I'm familiar with so I chose it.
-
-**Backend framework**: I chose Servlet as the back-end framework which is commonly 
-used.
-
-**Database**: SF Data provide SODA API, which is easy to use to fetch data.
-
-**Frontend**: The front-end has been implemented as a single 'index.html' with 
-accompanying JavaScript file.
 
 # Design choices
 
-Below, I go through some of the major design choices made in the process of
-creating the project.
+Belo is my design logic, issues and future optimization
 
 ## Back-end
 
 - Implemented the back-end as a web service:
-    - Client-server: The servlet framework separates clients from the servers. The 
-    endpoint of servlet is http://1-dot-ubersffood.appspot.com//ubersffoodgaeserver.
+    - Client-server: The servlet framework separates clients from the servers. The servlet has its own endpoint upon deployment on google app engine. The endpoint of servlet is http://1-dot-ubersffood.appspot.com//ubersffoodgaeserver.
     Any clients can do a post or get to this endpoint from their end to access the web service.
     - Stateless: The server stores no client and third-party(SODA API) context.
 
